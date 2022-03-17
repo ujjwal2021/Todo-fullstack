@@ -1,0 +1,50 @@
+.single-todo-container{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+    width: max-content;
+    max-width: 50%;
+}
+.single-todo-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+.single-todo-description{
+    margin-top: 1rem;
+    font-size: 1.15rem;
+    color: #222;
+}
+.btn-container{
+    margin-top: 1rem;
+}
+.btn-container .btn{
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+}
+.btn.edit-btn{
+    background-color: green;
+}
+/* edit */
+.single-todo-container input{
+    width: 100%;
+    border: none;
+
+    border-bottom: 1px solid grey;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0.5rem;
+    outline: none;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.single-todo-container textarea{
+    width: 100%;
+    padding: 1rem 0 0 0;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    font-size: 1.15rem;
+    color: #222;
+}

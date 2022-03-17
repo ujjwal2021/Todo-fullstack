@@ -1,0 +1,66 @@
+.form-container{
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+   width: 100%;
+   margin-top: 4-rem;
+   
+}
+.title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.form{
+    width: 30%;
+}
+
+.form-control{
+    /* padding: 1rem 0; */
+    width: 100%;
+    margin: 1rem 0;
+    position: relative;
+}
+.form-control svg{
+    position: absolute;
+    top: 35%;
+    left: 0.5rem;
+    color: grey;
+}
+input{
+    padding: 1rem 1rem 1rem 2rem;
+    width: 80%;
+}
+
+
+.form-control input::placeholder{
+    font-size: 1.25rem;
+}
+.btn{
+   
+    padding: 0.85rem;
+    width: 150px;
+    border: none;
+    background-color: rgb(255, 0, 34);
+    color: white;
+    font-size: 1.15rem;
+    font-weight: 900;
+    transition: all 300ms ease;
+}
+.btn:hover{
+    opacity: 0.75;
+    /* background-color: rgba(255, 0, 34, 0.75); */
+}
+a{
+    text-decoration: none;
+}
+a .register-login-link{
+    width: 100%;
+    color: #222;
+}
+.register-login-link .link-main{
+    font-size: 1.15rem;
+    font-weight: 900;
+    color:rgb(255, 0 , 34);
+    
+}
